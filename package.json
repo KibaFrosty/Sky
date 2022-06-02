@@ -1,0 +1,22 @@
+{
+  "name": "skyproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KibaFrosty/Sky.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KibaFrosty/Sky/issues"
+  },
+  "homepage": "https://github.com/KibaFrosty/Sky#readme",
+  "devDependencies": {
+    "sass": "^1.52.1"
+  }
+}

@@ -312,8 +312,80 @@ body {
   color: white;
 }
 
+.title {
+  padding-top: 61px;
+  padding-left: 80px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.side-bar {
+  width: 256px;
+  padding-top: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+select {
+  border: none;
+}
+
+select:focus-visible {
+  outline: none;
+}
+
+.select-gender {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.bottom-opinion {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #BFBEBE;
+}
+
+.input {
+  margin-top: 74px;
+  margin-bottom: 15px;
+  width: 256px;
+  text-decoration: none;
+  border: none;
+  border-bottom: 1px solid #BFBEBE;
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
 .card--container {
-  margin-top: 200px;
+  margin-top: 98px;
   padding-left: 20px;
   width: 100%;
   display: -webkit-box;

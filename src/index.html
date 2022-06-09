@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="shortcut icon" href="./img/icons/wolf-emblem.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 
     <title>Sky</title>
 </head>
 
 <body>
+
     <div class="top_header">
         Winter Gear Guide - Our Top Ski Touring and Splitboard Setups.<a href="#">Read more</a>
     </div>
@@ -60,94 +62,184 @@
 
     <div class="main">
 
+        <div class="side-bar--container">
             <div class="title">Snowboards</div>
        
             <section class="side-bar">
-                <select class="select-gender" name="select"> <!--Supplement an id here instead of using 'name'-->
-                    <option value="value1" selected>Cattegories</option>
-                    <option class="bottom-opinion" value="value2">All-Mauntain Snowboards (51)</option>
-                </select>
+                
+                <details class="spoiler">
+                        <summary>Cattegories</summary>
+                        <div class="spoiler__wrapper">
+                            <div>
+                                <input type="checkbox" name="">
+                                <span class="descr">All-Mauntain Snowboards (51)</span>
+                            </div>
+                            <input class="input" type="text" placeholder="View more...">
+                        </div>
+                </details>
 
-                <input class="input" type="text" placeholder="View more...">
+                <details class="spoiler">
+                    <summary>Gender</summary>
+                    <div class="spoiler__wrapper">
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Men’ (6)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Women’s (32)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Unisex (52)</span>
+                        </div>
+                        <input class="input" type="text" placeholder="View more...">
+                        
+                    </div>
+                </details>
 
-                <select class="select-gender" name="select"> <!--Supplement an id here instead of using 'name'-->
-                    <option value="value" selected>Gender</option>
-                    <option class="bottom-opinion" value="value1">Men’ (6)</option>
-                    <option class="bottom-opinion" value="value2">Women’s (32)</option>
-                    <option class="bottom-opinion" value="value3">Unisex (52)</option>
-                </select>
+                <details class="spoiler">
+                    <summary>Brans</summary>
+                    <div class="spoiler__wrapper">
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Arbor (19)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Bataleon (6)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Capita (14)</span>
+                        </div>
+                        <input class="input" type="text" placeholder="View more...">
+                        
+                    </div>
+                </details>
 
-                <input class="input" type="text" placeholder="View more...">
+                <details class="spoiler">
+                    <summary>Snowboards Lenght (cm)</summary>
+                    <div class="spoiler__wrapper">
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">80 to 149 (39)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">150 to 159 (79)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">160 to 169 (36)</span>
+                        </div>
+                        <input class="input" type="text" placeholder="View more...">
+                        
+                    </div>
+                </details>
 
-                <select class="select-gender" name="select"> <!--Supplement an id here instead of using 'name'-->
-                    <option value="value" selected>Brans</option>
-                    <option class="bottom-opinion" value="value1">Arbor (19)</option>
-                    <option class="bottom-opinion" value="value2">Bataleon (6)</option>
-                    <option class="bottom-opinion" value="value3">Capita (14)</option>
-                </select>
+                <details class="spoiler">
+                    <summary>Snowboards Shape</summary>
+                    <div class="spoiler__wrapper">
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Directional (39)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Directional Twin (36)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">True Twin (26)</span>
+                        </div>
+                        <input class="input" type="text" placeholder="View more...">
+                        
+                    </div>
+                </details>
 
-                <input class="input" type="text" placeholder="View more...">
+                <details class="spoiler">
+                    <summary>Snowboards Style</summary>
+                    <div class="spoiler__wrapper">
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">All-Mountain (64)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Freeride (22)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Freestyle (22)</span>
+                        </div>
+                        <input class="input" type="text" placeholder="View more...">
+                        
+                    </div>
+                </details>
 
-                <select class="select-gender" name="select"> <!--Supplement an id here instead of using 'name'-->
-                    <option value="value" selected>Snowboards Lenght (cm)</option>
-                    <option class="bottom-opinion" value="value1">80 to 149 (39)</option>
-                    <option class="bottom-opinion" value="value2">150 to 159 (79)</option>
-                    <option class="bottom-opinion" value="value3">160 to 169 (36)</option>
-                </select>
+                <details class="spoiler">
+                    <summary>Price</summary>
+                    <div class="spoiler__wrapper">
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">$50.00 to $99.99 (1)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">$100.00 to $199.99 (1)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">$200.00 to $499.99 (52)</span>
+                        </div>
+                        <input class="input" type="text" placeholder="View more...">
+                        
+                    </div>
+                </details>
 
-                <input class="input" type="text" placeholder="View more...">
+                <details class="spoiler">
+                    <summary>Snowbord Profile</summary>
+                    <div class="spoiler__wrapper">
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Directional (39)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Directional Twin (36)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">True Twin (26)</span>
+                        </div>
+                        <input class="input" type="text" placeholder="View more...">
+                        
+                    </div>
+                </details>
 
-                <select class="select-gender" name="select"> <!--Supplement an id here instead of using 'name'-->
-                    <option value="value" selected>Snowboards Shape</option>
-                    <option class="bottom-opinion" value="value1">Directional (39)</option>
-                    <option class="bottom-opinion" value="value2">Directional Twin (36)</option>
-                    <option class="bottom-opinion" value="value3">True Twin (26)</option>
-                </select>
-
-                <input class="input" type="text" placeholder="View more...">
-
-                <select class="select-gender" name="select"> <!--Supplement an id here instead of using 'name'-->
-                    <option value="value" selected>Snowboards Style</option>
-                    <option class="bottom-opinion" value="value1">All-Mountain (64)</option>
-                    <option class="bottom-opinion" value="value2">Freeride (22)</option>
-                    <option class="bottom-opinion" value="value3">Freestyle (22)</option>
-                </select>
-
-                <input class="input" type="text" placeholder="View more...">
-
-                <select class="select-gender" name="select"> <!--Supplement an id here instead of using 'name'-->
-                    <option value="value" selected>Price</option>
-                    <option class="bottom-opinion" value="value1">$50.00 to $99.99 (1)</option>
-                    <option class="bottom-opinion" value="value2">$100.00 to $199.99 (1)</option>
-                    <option class="bottom-opinion" value="value3">$200.00 to $499.99 (52)</option>
-                </select>
-
-                <input class="input" type="text" placeholder="View more...">
-
-                <select class="select-gender" name="select"> <!--Supplement an id here instead of using 'name'-->
-                    <option value="value" selected>Snowbord Profile</option>
-                    <option class="bottom-opinion" value="value1">$50.00 to $99.99 (1)</option>
-                    <option class="bottom-opinion" value="value2">$100.00 to $199.99 (1)</option>
-                    <option class="bottom-opinion" value="value3">$200.00 to $499.99 (52)</option>
-                </select>
-
-                <input class="input" type="text" placeholder="">
-
-                <select class="select-gender" name="select"> <!--Supplement an id here instead of using 'name'-->
-                    <option value="value" selected>Flex</option>
-                    <option class="bottom-opinion" value="value1">$50.00 to $99.99 (1)</option>
-                    <option class="bottom-opinion" value="value2">$100.00 to $199.99 (1)</option>
-                    <option class="bottom-opinion" value="value3">$200.00 to $499.99 (52)</option>
-                </select>
-
-                <input class="input" type="text" placeholder="">
-
-
+                <details class="spoiler">
+                    <summary>Flex</summary>
+                    <div class="spoiler__wrapper">
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Directional (39)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">Directional Twin (36)</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <span class="descr">True Twin (26)</span>
+                        </div>
+                        <input class="input" type="text" placeholder="View more...">
+                        
+                    </div>
+                </details>
+                
             </section>
-            
-
-
-
+        </div> 
 
         <div class="card--container">
 
@@ -337,7 +429,90 @@
 
     </div>
 
+        <div class="swip-cards">
+            <div class="swiper">
+
+                <div class="title-sellers">Best Sellers</div>
+
+                <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                            <div class="best-cards">
+                                <div class="card1">
+                                    <img src="./img/04 2.svg">
+                                    <p>POC<br>Obex Spin Helmet</p>
+                                    <p class="card__cost1">$ 279.95</p>
+                                </div>
+            
+                                <div class="card1">
+                                    <img src="./img/01 1.svg">
+                                    <p>Rossignol<br>EVO 70 Ski Boots</p>
+                                    <p class="card__cost1">$ 89.99</p>
+                                </div>
+            
+                                <div class="card1">
+                                    <img src="./img/02 1.svg">
+                                    <p>Tecnica<br>JT 2 Pearl Girl Ski Boots</p>
+                                    <p class="card__cost1">$ 119.95</p>
+                                </div>
+            
+                                <div class="card1">
+                                    <img src="./img/03 1.svg">
+                                    <p>Rossignol<br>XV Sashimi LG Light</p>
+                                    <p class="card__cost1">$ 599.95</p>
+                                </div>
+                            </div>
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                </div>
+            
+            </div>
+        </div>
+
+
+
+        <div class="contacts">
+
+            <div class="chat">
+                <h3 class="chat__title">Need Help?</h3>
+                <p>Talk to our Gearheads 24/7 about your needs</p>
+                <div class="nav__btn">
+                    <a class="nav__btntxt" href="#">Chat Now</a>
+                </div>
+                <h3 class="chat__title">Or Call: 1-800-409-4502</h3>
+            </div>
+
+            <div class="submit">
+                <h3 class="chat__title">Stay in the know</h3>
+                    <p>Be the first to see sales & new gear!</p>
+                        <form action="#">
+                            <label for="fname">Email Address</label><br>
+                                <input type="text" id="fname" name="fname" value="">
+                                <input class="subbtn" type="submit" value="Submit">
+                        </form>
+            </div>
+        </div>
+
+
+        <div class="bottom-nav">
+            <a class="nav__txt" href="#">Ski boots</a>
+                <a class="nav__txt" href="#">Ski accessories</a>
+                <a class="nav__txt" href="#">Apparel</a>
+                <a class="nav__txt" href="#">Snowboard shop</a>
+                <a class="nav__txt" href="#">Brands</a>
+                <a class="nav__txt" href="#">Sale</a>
+        </div>
         
 
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./JS/swiper.js"></script>
+    
 </body>
 </html>

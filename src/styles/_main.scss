@@ -6,7 +6,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    
+
     font-family: "Open Sans", sans-serif;
 }
 
@@ -18,4 +18,22 @@ body {
 @font-face {
     font-family: "Open Sans";
     src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@media (max-width:1280px){
+    body {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px){
+    body {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px){
+    body {
+        max-width: none;
+    }
 }
